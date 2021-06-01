@@ -17,6 +17,8 @@ def calcLeapYear(year):
         return ("% s is not a Leap Year." % year)
     elif (year%4 == 0):
         return ("% s is a Leap Year." % year)
+    else:
+        return ("% s is not a Leap Year." % year)
 
 if __name__ == '__main__':
     main()
